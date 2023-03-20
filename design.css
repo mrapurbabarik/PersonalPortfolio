@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    /* background: #ededff; */
+    background: #e3edf7;
+}
+
+.container{
+    margin: 20px 0px;
+    width: 100%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile{
+    width: 90%;
+    max-width: 400px;
+    background: #fff;
+    text-align: center;
+    padding: 30px 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.pro_pic{
+    margin: auto;
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    border: 3.5px solid orange;
+}
+
+.pro_pic img{
+    width: 110px;
+    margin-top: 3px;
+    height: 110px;
+    object-fit:cover;
+    border-radius: 50%;
+}
+
+.intro h2{
+    font-size: 20px;
+    letter-spacing: 0.8px;
+    color: #000;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.intro p{
+    font-size: 15px;
+    color: #090909;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+}
+
+.btns .btn_big{
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(to right, #8d68c5, #e34494);
+    padding: 5px 15px;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+.btn_sml{
+    font-size: 25px;
+    padding: 2px 10px;
+    color: #8d68c5;
+}
+
+.about{
+    margin-top: 15px;
+}
+
+h3{
+    color: crimson;
+    text-decoration: underline;
+    margin: 8px 0px;
+}
+
+.about p abbr{
+    text-decoration: none;
+}
+
+.about p{
+    text-align: justify;
+    
+    color: #090909;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.abili i{
+    font-size: 25px;
+}
+
+.proj img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+
+
+.cont{
+    margin-bottom: 10px;
+}
+
+.foot{
+    margin-top: 7px;
+}
